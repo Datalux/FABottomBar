@@ -1,5 +1,7 @@
 # FABottomBar
 
+![FABottomBar](fabottom.gif)
+
 
 ## Usage
 ### Add layout
