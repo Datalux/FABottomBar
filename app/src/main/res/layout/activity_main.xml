@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <it.gcriscione.fabottombar.FABottomBar
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fab_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_gravity="bottom"
+        app:fab_cradle_margin="4dp"
+        app:fab_cradle_rounded_corner_radius="12dp"
+        app:fab_size="60dp"
+        app:itemTextColor="#fff"
+        app:itemIconTint="@color/colorAccent"
+        app:itemBackground="@null"
+        app:menu="@menu/menu"
+        app:background_color="@color/colorPrimary"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        app:fabCustomSize="64dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorAccent"
+        app:maxImageSize="34dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        app:elevation="10dp"
+        />
+
+</RelativeLayout>
