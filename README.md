@@ -38,6 +38,13 @@
         />
 ```
 
+#### Change bottom bar backgorund color
+Add `background_color` in `FABottomBar` tag.
+```xml
+app:background_color="@color/colorPrimary"
+
+```
+
 ### Use it in your Activity or Fragment
 #### Initialization
 ```kotlin
